@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "axorus",
+  "version": "${version}",
+  "name": "Axorus",
+  "description": "Axorus - Click GUI (Right Shift) + Target Info HUD",
+  "environment": "client",
+  "entrypoints": { "client": ["cz.axorus.Axorus"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
